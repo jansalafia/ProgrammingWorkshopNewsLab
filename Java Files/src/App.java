@@ -12,7 +12,7 @@ public class App {
         try (
             BufferedReader br_center = new BufferedReader(new FileReader(file_centerFile));
             BufferedReader br_right = new BufferedReader(new FileReader(file_rightFile));
-            BufferedReader br_left = new BufferedReader(new FileReader(file_leftFile))
+            BufferedReader br_left = new BufferedReader(new FileReader(file_leftFile));
         ) {
             // Read and print Center file
             String line;
